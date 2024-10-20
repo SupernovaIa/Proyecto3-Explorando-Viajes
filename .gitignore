@@ -3,8 +3,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# archivos mac ds_store
+# Mac ds_store files
 .DS_STORE
+
+# Heavy data
+data/
 
 # C extensions
 *.so
