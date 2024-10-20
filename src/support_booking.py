@@ -51,7 +51,7 @@ def clean_df(df):
     # Formatting 'Score'
     df['Score'] = df['Score'].str.replace(',', '.').astype(float)
     # Formatting 'Price (€)'
-    df['Price (€)'] = df['Price (€)'].str.replace('€','').str.replace(' ','').astype(float)
+    df['Price (€)'] = df['Price (€)'].str.replace('€','').str.replace(' ','').str.replace('.','').astype(float)
     # Formatting 'Location score'
     df['Location score'] = df['Location score'].str.replace(r'\w+\s','', regex=True).str.replace(',','.').astype(float)
 
