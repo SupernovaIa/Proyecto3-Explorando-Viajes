@@ -6,8 +6,16 @@ import os
 key_2 = os.getenv('token2')
 
 
-
 def clean_flights_df(df):
+    """
+    Cleans and structures flight data by extracting and organizing relevant information, including emissions, flight details, and airport information.
+
+    Parameters:
+    - df (pd.DataFrame): The raw flight data DataFrame containing flight and emissions information.
+
+    Returns:
+    - (pd.DataFrame): A cleaned DataFrame containing organized columns for departure and arrival information, flight details, emissions, and price.
+    """
 
     # Getting emissions info
     df_emissions = df["carbon_emissions"].apply(pd.Series)
@@ -37,7 +45,17 @@ def clean_flights_df(df):
 
 
 def get_flight_info(origin, destiny, date):  
+    """
+    Fetches flight information for a specified route and date, processes the results, and returns a cleaned DataFrame with relevant flight details.
 
+    Parameters:
+    - origin (str): The IATA code of the departure airport.
+    - destiny (str): The IATA code of the destination airport.
+    - date (str): The outbound flight date in 'YYYY-MM-DD' format.
+
+    Returns:
+    - (pd.DataFrame): A cleaned DataFrame containing flight details, including emissions, price, and other relevant information.
+    """
     params = {
     "api_key": key_2,
     "engine": "google_flights",
