@@ -83,15 +83,17 @@ Once the environment is set up, you can run the Jupyter Notebooks one by one to 
 
 The data analysis provided the following insights:
 
-- **Flight Availability**: Certain limitations were found in the frequency of flights to some selected destinations, especially during certain times of the year. This is crucial for travel planning.
-- **Accommodation Prices and Services**: The collected data shows that accommodation availability and prices vary significantly between high and low seasons. Some destinations have a clear oversupply during specific months, which can be leveraged to offer discounts.
-- **Local Activities**: The most popular activities include gastronomic tourism and adventure sports. Additionally, sustainability and eco-conscious experiences are particularly attractive to certain segments of clients, such as solo travelers seeking sustainable alternatives.
-- **Temporal Patterns**: Seasonal trends were identified for flights and accommodations, with peaks during holiday months and summer.
+- **Flights**: Overall, flights from Madrid to Budapest tend to be more expensive and generate higher emissions compared to those to Barcelona. However, this is mainly due to the significantly longer distance of the journey. For trips to Budapest, we have several airlines to choose from, and we have selected the one offering the lowest prices and emissions.
+- **Accommodation**: Price trends for accommodations in Budapest and Barcelona are quite similar. There doesn't appear to be a clear correlation between ratings and price. In Budapest, lower-rated accommodations are often located in central areas, suggesting that some travelers may prioritize location over quality.
+- **Local Activities**: Both cities offer a wide range of activities. The price and rating distribution is similar in both cases, with no significant correlation between price and ratings for local activities.
 
 ## 🔄 Next Steps:
-- **In-Depth Destination Analysis**: Conduct a detailed analysis of destinations with greater price and availability variability, as well as improve personalization of recommendations for different types of clients.
-- **Experience Improvement**: Implement a predictive model to recommend the best time to book flights and accommodation based on collected data.
-- **Sustainability**: Explore more options for sustainable activities to meet the needs of eco-conscious clients.
+Some further analysis we can perform in the next steps:
+- **Flights**: Conduct a broader analysis that includes categories beyond low emissions or budget options. Normalize the data based on flight distance or duration for a more accurate comparison.
+- **Accommodation**: Expand the selection of hotels and include additional filters, categories, and information such as accommodation type, room size, and whether breakfast is included.
+- **Local Activities**: Add more activity categories to allow for a deeper and more detailed analysis. Also, study the available time slots for the activities to enhance the evaluation.
+- **Destinations**: Expand the analysis to include more cities.
+
 
 ## 🤝 Contributions
 
