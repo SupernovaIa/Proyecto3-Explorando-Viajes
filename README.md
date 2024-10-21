@@ -64,7 +64,7 @@ This project was developed using **Python 3.12**. To set up the project environm
 ### 3. Install the required libraries:
 The following libraries are required for this project:
 
-- **[Selenium](https://www.selenium.dev/documentation/en/getting_started/install_and_run/)** (v4.21.0)
+- **[Selenium](https://www.selenium.dev/)** (v4.21.0)
 - **[Beautiful Soup](https://beautiful-soup-4.readthedocs.io/en/latest/#installing-beautiful-soup)** (v4.12.3)
 - **[Pandas](https://pandas.pydata.org/docs/getting_started/install.html)** (v2.2.2)
 - **[Numpy](https://numpy.org/install/)** (v1.26.4)
